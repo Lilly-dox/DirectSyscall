@@ -1,4 +1,3 @@
-//include "pch.h"
 #include <Windows.h>
 #include "winternl.h"
 #pragma comment(lib, "ntdll")
