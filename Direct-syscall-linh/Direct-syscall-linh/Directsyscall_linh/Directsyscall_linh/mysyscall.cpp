@@ -30,7 +30,7 @@ int main()
 
 	//C:\Successbypass
 
-	RtlInitUnicodeString(&fileName, (PCWSTR)L"\\??\\C:\\Successbypass\\test.txt");
+	RtlInitUnicodeString(&fileName, (PCWSTR)L"\\??\\C:\\Successbypass\\test.txt"); // path tao file tuy y
 	ZeroMemory(&osb, sizeof(IO_STATUS_BLOCK));
 	InitializeObjectAttributes(&oa, &fileName, OBJ_CASE_INSENSITIVE, NULL, NULL);
 
